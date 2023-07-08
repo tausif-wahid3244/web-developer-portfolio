@@ -5,6 +5,10 @@ body{
 
 nav{
     display: flex;
+    justify-content:  space-between;
+    align-items: center;
+    margin: 0 200px;
+    
 }
 
 .text-primary{
@@ -26,14 +30,24 @@ nav > ul{
 
 
 
-nav-li{
-    list-style: none;
+nav li{
     margin-right: 50px;
+    list-style: none;
+    border: 5px 5px;
+    padding: 5px 5px;
 }
 
 nav a{
 
     text-decoration: none;
     color: #474747;
+
+}
+
+.btn-primary{
+    border-radius: 10px;
+    background: #FD6E0A;
+    border: 0;
+    color: white;
 
 }
